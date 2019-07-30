@@ -7,10 +7,12 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { TranslatorComponent } from './translator/translator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TranslatorComponent
   ],
   imports: [
     BrowserModule,
