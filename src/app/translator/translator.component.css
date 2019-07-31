@@ -1,0 +1,12 @@
+.lang-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 20vh;
+}
+.flag-view {
+  width: 60px;
+  height: 70px;
+  padding-left: 8px;
+}
